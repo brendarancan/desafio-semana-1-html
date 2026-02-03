@@ -1,0 +1,62 @@
+<!-- 
+   1. Figure/Figcaption (OK)
+   2. Alt para imagens (OK)
+   3. Forms com labels (OK)
+   4. Hierarquia de títulos corretos (h1-h6) (OK)
+-->
+<html>
+    <head>
+        <title>Meu Blog</title>
+    </head>
+    <body>
+        <section id="container">
+            <header id="topo">
+               <div class="logo">
+                <h2>Blog Semântico</h2>
+               </div>
+            </header>
+           </div>
+           <main id="conteudo-principal">
+              <article class="post-blog">
+                  <figure>
+                      <img src="./Shakers.png" width="300px" height="200px" alt="Imagem para meu blog" />
+                    <figcaption>Essa é a foto para meu blog que eu tirei em 2022.</figcaption>
+
+                    </figure>
+                      <h1>Primeiro Artigo Incrível</h1>
+                  <p>Este é o conteúdo do meu primeiro post. Ele fala sobre a importância de aprender HTML5 e como ele pode mudar a forma como construímos a web. </p>
+                  <div class="data">Publicado em: 15 de Março de 2025</div>
+              </article>
+
+              <aside class="sidebar seções-padrões">
+                  <h3>Categorias</h3>
+                  <nav>
+                     <ul>
+                      <li><a href="#">Esportes</a></li>
+                      <li><a href="#">Jogos</a></li>
+                      <li><a href="#">Moda</a></li>
+                      <li><a href="#">Religião</a></li>
+                  </ul>
+                  </nav>
+              </aside>
+
+               <section id="comentário" class="seções-padrões">
+                   <form>
+                    <h3>Faça seu comentário</h3>
+                        <label for="nome">Nome</label><br/><br/>
+                       <input type="text" name="nome" /><br/><br/>
+                       <label for="texto">Seu Comentário</label><br/><br/>
+                       <textarea name="texto" ></textarea><br/><br/>
+                       <button type="submit">Enviar</button>
+                   </form>
+
+               </section>
+           </main>
+
+          <footer id="rodape">
+              <h4>Parceiros do meu Blog: <a href="https://www.shakersuniversity.com.br" >Shakers University</a></h4>
+              <p>&copy; 2025 Todos os direitos reservados.</p>
+          </footer>
+      </section>
+    </body>
+</html>
