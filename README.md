@@ -29,3 +29,8 @@ As principais tecnologias usadas neste projeto foram:
 - Acesso aos artigos e demais informacoes no menu superior direito
 - Click direto para ser direcionado ao artigo
 - Acesso as redes sociais no footer
+
+- Autora
+Brenda Rezende Carvalho Rancan
+[Linkedin](https://www.linkedin.com/in/brenda-rancan-666304141/)
+[GitHub] https://github.com/brendarancan
