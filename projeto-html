@@ -1,62 +1,104 @@
-<!-- 
-   1. Figure/Figcaption (OK)
-   2. Alt para imagens (OK)
-   3. Forms com labels (OK)
-   4. Hierarquia de títulos corretos (h1-h6) (OK)
--->
-<html>
-    <head>
-        <title>Meu Blog</title>
-    </head>
-    <body>
-        <section id="container">
-            <header id="topo">
-               <div class="logo">
-                <h2>Blog Semântico</h2>
-               </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRVideo Filmmaker Mobile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="BRVideo">
+        <div class="BRVideo__container">
+            <input type="search" class="BRVideo-search__input" placeholder="MENU    QUEM SOMOS    ARTIGOS    LOGIN" aria-label="BRVideo-search__input">
+            <header class="BRVideo__header">
+                <h1 class="BRVideo__title">BRVideo • Filmmaker Mobile</h1>
             </header>
-           </div>
-           <main id="conteudo-principal">
-              <article class="post-blog">
-                  <figure>
-                      <img src="./Shakers.png" width="300px" height="200px" alt="Imagem para meu blog" />
-                    <figcaption>Essa é a foto para meu blog que eu tirei em 2022.</figcaption>
+            <div class="BRVideo__search">
+                <div class="BRVideo-search">
+                    <div class="BRVideo-search__results">
+                        <ul class="BRVideo-search__results-list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-                    </figure>
-                      <h1>Primeiro Artigo Incrível</h1>
-                  <p>Este é o conteúdo do meu primeiro post. Ele fala sobre a importância de aprender HTML5 e como ele pode mudar a forma como construímos a web. </p>
-                  <div class="data">Publicado em: 15 de Março de 2025</div>
-              </article>
+    <!--Texto principal-Centro da pagina-->
+            <section>
+                    <div style="text-align: center; width: 0 auto;">
+                    <h2 class="BRVideo-category__title">Filmmaker Mobile: Primeiros passos</h2>
+                    </div>
+            </section>
 
-              <aside class="sidebar seções-padrões">
-                  <h3>Categorias</h3>
-                  <nav>
-                     <ul>
-                      <li><a href="#">Esportes</a></li>
-                      <li><a href="#">Jogos</a></li>
-                      <li><a href="#">Moda</a></li>
-                      <li><a href="#">Religião</a></li>
-                  </ul>
-                  </nav>
-              </aside>
+    <!--Categorias-->
+            <section class="BRVideo__categories">
+                <article class="BRVideo-category">
+                    <img src="onde-comecar.png" alt="Foto1">
+                    <h2 class="BRVideo-category__title">Por onde começar?</h2>
+                    <ul class="BRVideo-category__list">
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/equipamentos-necessarios.html" class="BRVideo-category__link">Equipamentos necessários</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/nocoes-basicas-de-fotografia.html" class="BRVideo-category__link">Noções básicas de fotografia</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/audiovisual.html" class="BRVideo-category__link">Audiovisual</a>
+                        </li>
+                    </ul>
+                </article>
 
-               <section id="comentário" class="seções-padrões">
-                   <form>
-                    <h3>Faça seu comentário</h3>
-                        <label for="nome">Nome</label><br/><br/>
-                       <input type="text" name="nome" /><br/><br/>
-                       <label for="texto">Seu Comentário</label><br/><br/>
-                       <textarea name="texto" ></textarea><br/><br/>
-                       <button type="submit">Enviar</button>
-                   </form>
+                <article class="BRVideo-category">
+                    <img src="dominio-tecnicas.avif" alt="Foto2">
+                    <h2 class="BRVideo-category__title">Domínio de técnicas</h2>
+                    <ul class="BRVideo-category__list">
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/fotometria.html" class="BRVideo-category__link">Fotometria</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/luz-e-cor.html" class="BRVideo-category__link">Luz e cor</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/conheca-seu-equipamento.html" class="BRVideo-category__link">Conheça seu equipamento</a>
+                        </li>
+                    </ul>
+                </article>
 
-               </section>
-           </main>
+                <article class="BRVideo-category">
+                    <img src="pos-producao.jpg.webp" alt="Foto3">
+                    <h2 class="BRVideo-category__title">Pós Produção</h2>
+                    <ul class="BRVideo-category__list">
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/capcut-e-o-unico-caminho.html" class="BRVideo-category__link">CapCut é o único caminho?</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/cortes.html" class="BRVideo-category__link">Cortes</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/trilha-sonora.html" class="BRVideo-category__link">Trilha sonora</a>
+                        </li>
+                    </ul>
+                </article>
 
-          <footer id="rodape">
-              <h4>Parceiros do meu Blog: <a href="https://www.shakersuniversity.com.br" >Shakers University</a></h4>
-              <p>&copy; 2025 Todos os direitos reservados.</p>
-          </footer>
-      </section>
-    </body>
+                <article class="BRVideo-category">
+                    <img src="precificacao.jpg" alt="Foto4">
+                    <h2 class="BRVideo-category__title">Precificação</h2>
+                    <ul class="BRVideo-category__list">
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/quanto-cobrar.html" class="BRVideo-category__link">Quanto cobrar?</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/valor-hora.html" class="BRVideo-category__link">Valor/hora</a>
+                        </li>
+                        <li class="BRVideo-category__item">
+                            <a href="conteudo/valor-vs-preco.html" class="BRVideo-category__link">Valor vs preço</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            </section>
+        </div>
+    </main>
+</body>
 </html>
+
+<link rel="stylesheet" href="style.css">
