@@ -33,4 +33,4 @@ As principais tecnologias usadas neste projeto foram:
 ## Autora
 - Brenda Rezende Carvalho Rancan
 - [Linkedin](https://www.linkedin.com/in/brenda-rancan-666304141/)
-[GitHub](https://github.com/brendarancan)
+- [GitHub](https://github.com/brendarancan)
